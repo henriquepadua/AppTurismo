@@ -1,14 +1,13 @@
 ﻿using System;
 
-namespace MeuApp
+namespace AppTurismo
 {
     class Program
     {
         static void Main (string[]  args)
         {
-            var  texto = "Testando";
-            Console.WriteLine(texto);  
+            Turista t = new Turista();
+            
         } 
     }   
-
 }        
