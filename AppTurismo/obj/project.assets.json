@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\Dotnet\\AppTurismo\\testepaulo2.csproj",
-      "projectName": "testepaulo2",
-      "projectPath": "C:\\Users\\User\\Documents\\Dotnet\\AppTurismo\\testepaulo2.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\Dotnet\\AppTurismo\\AppTurismo.csproj",
+      "projectName": "AppTurismo",
+      "projectPath": "C:\\Users\\User\\Documents\\Dotnet\\AppTurismo\\AppTurismo.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Documents\\Dotnet\\AppTurismo\\obj\\",
       "projectStyle": "PackageReference",

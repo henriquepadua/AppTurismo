@@ -6,17 +6,37 @@ namespace AppTurismo
     {
         static void Main (string[]  args)
         {
-            List<Turista> t = new List<Turista>();
+            List<Hospedagem> t = new List<Hospedagem>();
             Turista viajante = new Turista();
 
-            if(t != null){
-               t.Add(viajante);
-               viajante.Email = "henrique.lommes@gmail.com";
-               viajante.Nome = "Henrique";
-               viajante.SobreNome = "Lommes";
+            viajante.Email = null;
+            viajante.Nome = null;
+            viajante.SobreNome = null;
+            viajante.Senha = "*********";
+            char[] cript = viajante.Senha.ToCharArray(); 
+            Console.WriteLine(viajante.Senha.Length);
+            Console.WriteLine(cript.Length);
 
-               Console.WriteLine(t.First().Email + " " + t.First().Nome + " " + t.First().SobreNome);
+            Console.WriteLine("Digite uma senha de 9 caracteres");
+
+            for(int i = 0; i < cript.Length;i++){
+                if(cript[i] == '*'){
+                  cript[i] = ((char) Console.Read());
+                }
             }
+
+            Console.WriteLine("Senha Descritografada"); 
+            Console.WriteLine(cript);
+
+            for(int j = 0; j < cript.Length; j++){
+                if(cript[j] != '*'){
+                    cript[j] = '*';
+                }
+            }
+
+            Console.WriteLine("Senha Descritografada");
+            Console.WriteLine(cript);
+
         } 
     }   
 }        
