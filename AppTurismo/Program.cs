@@ -6,8 +6,17 @@ namespace AppTurismo
     {
         static void Main (string[]  args)
         {
-            Turista t = new Turista();
-            
+            List<Turista> t = new List<Turista>();
+            Turista viajante = new Turista();
+
+            if(t != null){
+               t.Add(viajante);
+               viajante.Email = "henrique.lommes@gmail.com";
+               viajante.Nome = "Henrique";
+               viajante.SobreNome = "Lommes";
+
+               Console.WriteLine(t.First().Email + " " + t.First().Nome + " " + t.First().SobreNome);
+            }
         } 
     }   
 }        

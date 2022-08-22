@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\testepaulo2\\testepaulo2.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\Dotnet\\AppTurismo\\testepaulo2.csproj",
       "projectName": "testepaulo2",
-      "projectPath": "C:\\Users\\User\\Documents\\testepaulo2\\testepaulo2.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\Dotnet\\AppTurismo\\testepaulo2.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\testepaulo2\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\Dotnet\\AppTurismo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
