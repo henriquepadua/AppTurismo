@@ -6,10 +6,16 @@ namespace AppTurismo
     {
         static void Main (string[]  args)
         {
-            List<Hospedagem> t = new List<Hospedagem>();
+            List<decimal> t = new List<decimal>();
             Turista viajante = new Turista();
+            PassagensAereas pa = new PassagensAereas();
 
-            int i;
+            Console.WriteLine("Digite a data do voo");
+
+            string entrada = Console.ReadLine();
+            t = entrada.Split(" ").Select(x=> decimal.Parse(x)).ToList();
+            Console.WriteLine("A data marcada eh: " + string.Join("/",t));
+
             viajante.Email = null;
             viajante.Nome = null;
             viajante.SobreNome = null;
@@ -18,13 +24,13 @@ namespace AppTurismo
 
             Console.WriteLine("Digite uma senha de 9 caracteres");
 
-            for(i = 0; i < cript.Length;i++){
+            for(int i = 0; i < cript.Length;i++){
                 if(cript[i] == '*'){
                   cript[i] = ((char) Console.Read());
                 }
             }
 
-            Console.WriteLine("Senha Descritografada"); 
+            Console.WriteLine("Senha Descriptografada"); 
             Console.WriteLine(cript);
 
             for(int j = 0; j < cript.Length; j++){
@@ -38,4 +44,4 @@ namespace AppTurismo
 
         } 
     }   
-}        
+}         
